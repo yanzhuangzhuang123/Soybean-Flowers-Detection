@@ -8,24 +8,24 @@ Please refer to the official installation tutorial [MxNet Installation](https://
 * Anaconda3 (recommended)
 # Training
 Train a default resnet50_v1b model with Pascal VOC on GPU 0:
-` `` python
+```python
 python train_faster_rcnn.py --gpus 0
-` `` 
+``` 
 Train a resnet50_v1b model on GPU 0,1,2,3:
-` `` python
+```python
 python train_faster_rcnn.py --gpus 0,1,2,3 --network resnet50_v1b
-` `` 
+``` 
 Check the supported arguments:
-` `` python
+```python
 python train_faster_rcnn.py --help
-` `` 
+``` 
 # TEST
 Model evaluation
-''' python
+```python
 python eval_fasterrcnn.py 
-'''
+```
 # Predict 
-''' python
+```python
 python Predict.py
-'''
+```
 # The following figure shows the effect of model detection
