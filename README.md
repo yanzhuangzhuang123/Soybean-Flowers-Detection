@@ -30,3 +30,8 @@ python Predict.py
 ```
 # The following figure shows the effect of model detection
 ![image](https://github.com/yanzhuangzhuang123/Soybean-Flowers-Detection/tree/main/dataset/result.png)
+
+# DATASET
+Download link of soybean flower dataset: https://pan.baidu.com/s/1pwYNLUUkG9ueayUrm6sZBw
+Password：le80 
+If you want to use this dataset, please add the corresponding reference or contact us.
