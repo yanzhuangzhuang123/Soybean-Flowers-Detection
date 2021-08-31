@@ -1,12 +1,12 @@
 
-from PIL import image
+from PIL import Image
 from matplotlib import pyplot as plt
 import gluoncv
 from gluoncv import model_zoo, data, utils
 
 net = model_zoo.get_model('faster_rcnn_resnet50_v1b_voc', pretrained=False)
 
-im_fname = image.open("your detect imgae")
+im_fname = Image.open("your detect imgae")
 x, orig_img = data.transforms.presets.rcnn.load_test(im_fname)
 
 box_ids, scores, bboxes = net(x)
